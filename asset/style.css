@@ -1,0 +1,39 @@
+.black-line{
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.black-line img{
+    width: 100px;
+    padding: 10px;
+}
+
+.nav-right{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+
+.nav-right li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold
+}
+
+.navbar-collapse{
+    flex-grow: 1;
+}
+
+.d-flex{
+    align-items: center;
+    flex-grow: 1;
+    width: 100%;
+}
+
+@media screen and (max-width:992px) {
+    .nav-right{
+        display: none;
+    }
+}
