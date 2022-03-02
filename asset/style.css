@@ -2,6 +2,7 @@
     background-color: black;
     display: flex;
     justify-content: flex-end;
+    width: 100%;
 }
 
 .black-line img{
@@ -28,12 +29,61 @@
 
 .d-flex{
     align-items: center;
-    flex-grow: 1;
-    width: 100%;
+    
 }
 
-@media screen and (max-width:992px) {
+@media screen and (max-width:768px) {
     .nav-right{
         display: none;
     }
+
 }
+
+.jumbotron{
+    background-image: url("../img/jumbo-bg.png");
+    height: 600px;
+    background-position:center;
+    align-items: flex-end;
+}
+
+.jumbo-contain{
+    width: 50%;
+}
+
+.jumbotron img{
+    width: 50%;
+    text-align: left;
+}
+
+.jumbotron span{
+    background-color: #CD3D0F;
+    border-color: #CD3D0F;
+}
+
+.cards{
+    border-radius: 5%;
+}
+
+
+.border_bottom_active{
+    border-bottom: 1px solid blue;
+}
+
+
+#it-takes-two{
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    height: 600px;
+    background-position:center;
+    align-items: flex-end;
+}
+
+#it-takes-two img{
+        width: 50%;
+        text-align: left;
+    }
+
+    #it-takes-two span {
+        background-color: #CD3D0F;
+        border-color: #CD3D0F;
+    }
+
