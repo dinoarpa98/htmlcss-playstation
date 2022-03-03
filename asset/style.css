@@ -87,3 +87,34 @@
         border-color: #CD3D0F;
     }
 
+    .pluslogo{
+        height: 50px;
+    }
+
+    #psplus{
+        background-color: gray;
+    }
+
+    @media screen and (max-width:992px) {
+        
+        .plusmonth{
+            display: none;
+        }
+
+        .plusitem{
+            width: 100%;
+        }
+    }
+
+    #psnow{
+        background-color: #00439C;
+    }
+
+    .containermedia{
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .h-globe{
+        width: 30px;
+    }
